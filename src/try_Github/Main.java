@@ -6,7 +6,13 @@ public class Main {
 		System.out.println("Hello Git with Eclipse");
 
 		Add add = new Add();
-		Sub dex = new Sub();
+		Sub sub = new Sub();
+
+		int a = 23;
+		int b = 12;
+
+
+		System.out.println(add.add(a,b) + sub.sub(a, b));
 
 	}
 
